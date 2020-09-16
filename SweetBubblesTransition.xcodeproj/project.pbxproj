@@ -3,13 +3,20 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		89EC2C26AB109F760B738178 /* Pods_SweetBubblesTransition_SweetBubblesTransitionTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACFC74A9A561199CD4D644F6 /* Pods_SweetBubblesTransition_SweetBubblesTransitionTests.framework */; };
 		C610D7C825125C6B00CA6901 /* SweetBubblesTransition.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C610D7BE25125C6A00CA6901 /* SweetBubblesTransition.framework */; };
 		C610D7CD25125C6B00CA6901 /* SweetBubblesTransitionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C610D7CC25125C6B00CA6901 /* SweetBubblesTransitionTests.swift */; };
 		C610D7CF25125C6B00CA6901 /* SweetBubblesTransition.h in Headers */ = {isa = PBXBuildFile; fileRef = C610D7C125125C6A00CA6901 /* SweetBubblesTransition.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C610D7DA25125D2400CA6901 /* BubbleViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C610D7D925125D2400CA6901 /* BubbleViewController.storyboard */; };
+		C610D7DC25125D3000CA6901 /* BubbleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C610D7DB25125D3000CA6901 /* BubbleViewController.swift */; };
+		C610D7DE25125D3900CA6901 /* AnimationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C610D7DD25125D3900CA6901 /* AnimationViewController.swift */; };
+		C610D7E025125D4500CA6901 /* bubble.png in Resources */ = {isa = PBXBuildFile; fileRef = C610D7DF25125D4400CA6901 /* bubble.png */; };
+		C610D7E525125F1B00CA6901 /* addChild extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C610D7E425125F1B00CA6901 /* addChild extension.swift */; };
+		FA58ED24951B23FA5A66471A /* Pods_SweetBubblesTransition.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4BEA7DF66537E192A6270DF /* Pods_SweetBubblesTransition.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -23,12 +30,23 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2292F8AD6D2CDBD5098F18DA /* Pods-SweetBubblesTransition.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SweetBubblesTransition.release.xcconfig"; path = "Target Support Files/Pods-SweetBubblesTransition/Pods-SweetBubblesTransition.release.xcconfig"; sourceTree = "<group>"; };
+		ACFC74A9A561199CD4D644F6 /* Pods_SweetBubblesTransition_SweetBubblesTransitionTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SweetBubblesTransition_SweetBubblesTransitionTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B4BEA7DF66537E192A6270DF /* Pods_SweetBubblesTransition.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SweetBubblesTransition.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C610D7BE25125C6A00CA6901 /* SweetBubblesTransition.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SweetBubblesTransition.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C610D7C125125C6A00CA6901 /* SweetBubblesTransition.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SweetBubblesTransition.h; sourceTree = "<group>"; };
 		C610D7C225125C6A00CA6901 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C610D7C725125C6B00CA6901 /* SweetBubblesTransitionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SweetBubblesTransitionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C610D7CC25125C6B00CA6901 /* SweetBubblesTransitionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SweetBubblesTransitionTests.swift; sourceTree = "<group>"; };
 		C610D7CE25125C6B00CA6901 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C610D7D925125D2400CA6901 /* BubbleViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = BubbleViewController.storyboard; sourceTree = "<group>"; };
+		C610D7DB25125D3000CA6901 /* BubbleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BubbleViewController.swift; sourceTree = "<group>"; };
+		C610D7DD25125D3900CA6901 /* AnimationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationViewController.swift; sourceTree = "<group>"; };
+		C610D7DF25125D4400CA6901 /* bubble.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bubble.png; path = ../bubble.png; sourceTree = "<group>"; };
+		C610D7E425125F1B00CA6901 /* addChild extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "addChild extension.swift"; sourceTree = "<group>"; };
+		E0EBDAB7E6A0E39A874BCD8A /* Pods-SweetBubblesTransition-SweetBubblesTransitionTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SweetBubblesTransition-SweetBubblesTransitionTests.debug.xcconfig"; path = "Target Support Files/Pods-SweetBubblesTransition-SweetBubblesTransitionTests/Pods-SweetBubblesTransition-SweetBubblesTransitionTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E212008BABC178FC95EB8F3E /* Pods-SweetBubblesTransition-SweetBubblesTransitionTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SweetBubblesTransition-SweetBubblesTransitionTests.release.xcconfig"; path = "Target Support Files/Pods-SweetBubblesTransition-SweetBubblesTransitionTests/Pods-SweetBubblesTransition-SweetBubblesTransitionTests.release.xcconfig"; sourceTree = "<group>"; };
+		E6156E6278BCB2595E0CB435 /* Pods-SweetBubblesTransition.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SweetBubblesTransition.debug.xcconfig"; path = "Target Support Files/Pods-SweetBubblesTransition/Pods-SweetBubblesTransition.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +54,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA58ED24951B23FA5A66471A /* Pods_SweetBubblesTransition.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,18 +63,33 @@
 			buildActionMask = 2147483647;
 			files = (
 				C610D7C825125C6B00CA6901 /* SweetBubblesTransition.framework in Frameworks */,
+				89EC2C26AB109F760B738178 /* Pods_SweetBubblesTransition_SweetBubblesTransitionTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AE09C3AF0048750074FD9958 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E6156E6278BCB2595E0CB435 /* Pods-SweetBubblesTransition.debug.xcconfig */,
+				2292F8AD6D2CDBD5098F18DA /* Pods-SweetBubblesTransition.release.xcconfig */,
+				E0EBDAB7E6A0E39A874BCD8A /* Pods-SweetBubblesTransition-SweetBubblesTransitionTests.debug.xcconfig */,
+				E212008BABC178FC95EB8F3E /* Pods-SweetBubblesTransition-SweetBubblesTransitionTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		C610D7B425125C6A00CA6901 = {
 			isa = PBXGroup;
 			children = (
 				C610D7C025125C6A00CA6901 /* SweetBubblesTransition */,
 				C610D7CB25125C6B00CA6901 /* SweetBubblesTransitionTests */,
 				C610D7BF25125C6A00CA6901 /* Products */,
+				C610D7DF25125D4400CA6901 /* bubble.png */,
+				AE09C3AF0048750074FD9958 /* Pods */,
+				FB1B0F1D107D7BE466B9338D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -71,7 +105,7 @@
 		C610D7C025125C6A00CA6901 /* SweetBubblesTransition */ = {
 			isa = PBXGroup;
 			children = (
-				C610D7C125125C6A00CA6901 /* SweetBubblesTransition.h */,
+				C610D7D825125CF000CA6901 /* Sources */,
 				C610D7C225125C6A00CA6901 /* Info.plist */,
 			);
 			path = SweetBubblesTransition;
@@ -84,6 +118,27 @@
 				C610D7CE25125C6B00CA6901 /* Info.plist */,
 			);
 			path = SweetBubblesTransitionTests;
+			sourceTree = "<group>";
+		};
+		C610D7D825125CF000CA6901 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				C610D7D925125D2400CA6901 /* BubbleViewController.storyboard */,
+				C610D7DB25125D3000CA6901 /* BubbleViewController.swift */,
+				C610D7DD25125D3900CA6901 /* AnimationViewController.swift */,
+				C610D7C125125C6A00CA6901 /* SweetBubblesTransition.h */,
+				C610D7E425125F1B00CA6901 /* addChild extension.swift */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		FB1B0F1D107D7BE466B9338D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B4BEA7DF66537E192A6270DF /* Pods_SweetBubblesTransition.framework */,
+				ACFC74A9A561199CD4D644F6 /* Pods_SweetBubblesTransition_SweetBubblesTransitionTests.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -104,6 +159,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C610D7D225125C6B00CA6901 /* Build configuration list for PBXNativeTarget "SweetBubblesTransition" */;
 			buildPhases = (
+				67D7991D80C5D56BEB720AC4 /* [CP] Check Pods Manifest.lock */,
 				C610D7B925125C6A00CA6901 /* Headers */,
 				C610D7BA25125C6A00CA6901 /* Sources */,
 				C610D7BB25125C6A00CA6901 /* Frameworks */,
@@ -122,9 +178,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C610D7D525125C6B00CA6901 /* Build configuration list for PBXNativeTarget "SweetBubblesTransitionTests" */;
 			buildPhases = (
+				0242125C678CF32481DC1F6E /* [CP] Check Pods Manifest.lock */,
 				C610D7C325125C6B00CA6901 /* Sources */,
 				C610D7C425125C6B00CA6901 /* Frameworks */,
 				C610D7C525125C6B00CA6901 /* Resources */,
+				F9EC6D00F1960DFCD0D229DD /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -148,6 +206,7 @@
 				TargetAttributes = {
 					C610D7BD25125C6A00CA6901 = {
 						CreatedOnToolsVersion = 11.6;
+						LastSwiftMigration = 1160;
 					};
 					C610D7C625125C6B00CA6901 = {
 						CreatedOnToolsVersion = 11.6;
@@ -178,6 +237,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C610D7DA25125D2400CA6901 /* BubbleViewController.storyboard in Resources */,
+				C610D7E025125D4500CA6901 /* bubble.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -190,11 +251,78 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0242125C678CF32481DC1F6E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SweetBubblesTransition-SweetBubblesTransitionTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		67D7991D80C5D56BEB720AC4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SweetBubblesTransition-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F9EC6D00F1960DFCD0D229DD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SweetBubblesTransition-SweetBubblesTransitionTests/Pods-SweetBubblesTransition-SweetBubblesTransitionTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SweetBubblesTransition-SweetBubblesTransitionTests/Pods-SweetBubblesTransition-SweetBubblesTransitionTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SweetBubblesTransition-SweetBubblesTransitionTests/Pods-SweetBubblesTransition-SweetBubblesTransitionTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C610D7BA25125C6A00CA6901 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C610D7DC25125D3000CA6901 /* BubbleViewController.swift in Sources */,
+				C610D7DE25125D3900CA6901 /* AnimationViewController.swift in Sources */,
+				C610D7E525125F1B00CA6901 /* addChild extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,7 +396,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -325,7 +453,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -339,7 +467,9 @@
 		};
 		C610D7D325125C6B00CA6901 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E6156E6278BCB2595E0CB435 /* Pods-SweetBubblesTransition.debug.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 8LW7CGBRD9;
@@ -348,6 +478,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = SweetBubblesTransition/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -356,6 +487,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = lucasam.SweetBubblesTransition;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -363,7 +495,9 @@
 		};
 		C610D7D425125C6B00CA6901 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2292F8AD6D2CDBD5098F18DA /* Pods-SweetBubblesTransition.release.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 8LW7CGBRD9;
@@ -372,6 +506,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = SweetBubblesTransition/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -387,7 +522,9 @@
 		};
 		C610D7D625125C6B00CA6901 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E0EBDAB7E6A0E39A874BCD8A /* Pods-SweetBubblesTransition-SweetBubblesTransitionTests.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8LW7CGBRD9;
 				INFOPLIST_FILE = SweetBubblesTransitionTests/Info.plist;
@@ -405,7 +542,9 @@
 		};
 		C610D7D725125C6B00CA6901 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E212008BABC178FC95EB8F3E /* Pods-SweetBubblesTransition-SweetBubblesTransitionTests.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8LW7CGBRD9;
 				INFOPLIST_FILE = SweetBubblesTransitionTests/Info.plist;
