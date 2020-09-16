@@ -16,9 +16,9 @@ Pod::Spec.new do |s|
   s.framework = "UIKit"
   s.dependency 'Reusable', '~> 4.1.1'
   
-  s.source_files = 'Sources/**/*.{swift}'
+  s.source_files = 'SweetBubblesTransition/**/*.{swift}'
   
-  s.resources = 'Sources/**/*.{png,storyboard}'
+  s.resources = 'SweetBubblesTransition/**/*.{png,storyboard}'
   
   s.swift_version = "5"
 
