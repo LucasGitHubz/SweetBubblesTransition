@@ -4,7 +4,7 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '10.0'
   s.requires_arc = true
   s.name         = "SweetBubbles"
-  s.version      = "1.0.0"
+  s.version      = "0.1.0"
   s.summary      = "Bubble transition between two Controllers written in Swift."
   s.description = "SweetBubbles is as indicated by its name, a sweet transition between two controllers using bubble to make it beautiful !"
   s.license = { :type => "MIT", :file => "LICENSE" }
