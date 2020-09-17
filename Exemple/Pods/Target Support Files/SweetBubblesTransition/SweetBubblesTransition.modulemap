@@ -1,0 +1,6 @@
+framework module SweetBubblesTransition {
+  umbrella header "SweetBubblesTransition-umbrella.h"
+
+  export *
+  module * { export * }
+}

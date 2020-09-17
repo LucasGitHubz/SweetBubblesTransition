@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097.2" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="ysg-x0-hZL">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller2-->
+        <scene sceneID="Cl3-wA-Th6">
+            <objects>
+                <viewController id="ysg-x0-hZL" customClass="ViewController2" customModule="test" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="yTa-RJ-CuI">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hey, I hope you enjoyed this transition !" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="e6I-i8-gMR">
+                                <rect key="frame" x="10" y="373.5" width="394" height="149"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="e6I-i8-gMR" secondAttribute="height" multiplier="394:149" id="7OK-F8-NOb"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="27"/>
+                                <color key="textColor" red="1" green="0.022552818959999998" blue="0.046070157350000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.7835254425" green="0.92781157920000001" blue="0.96621192889999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="lb4-c1-Ib1" firstAttribute="trailing" secondItem="e6I-i8-gMR" secondAttribute="trailing" constant="10" id="hkm-fG-Sn6"/>
+                            <constraint firstItem="e6I-i8-gMR" firstAttribute="centerY" secondItem="yTa-RJ-CuI" secondAttribute="centerY" id="mIX-sR-Qfv"/>
+                            <constraint firstItem="e6I-i8-gMR" firstAttribute="leading" secondItem="lb4-c1-Ib1" secondAttribute="leading" constant="10" id="qmM-gf-60x"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="lb4-c1-Ib1"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="HcT-eu-pKq" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="147.82608695652175" y="-204.24107142857142"/>
+        </scene>
+    </scenes>
+</document>

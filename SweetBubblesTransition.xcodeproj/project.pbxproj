@@ -44,6 +44,10 @@
 		C610D7DD25125D3900CA6901 /* AnimationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationViewController.swift; sourceTree = "<group>"; };
 		C610D7DF25125D4400CA6901 /* bubble.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bubble.png; path = ../bubble.png; sourceTree = "<group>"; };
 		C610D7E425125F1B00CA6901 /* addChild extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "addChild extension.swift"; sourceTree = "<group>"; };
+		C65E912825139ABC009ACD62 /* Reusable.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Reusable.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C65E912B25139B78009ACD62 /* Pods_SweetBubblesTransition.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Pods_SweetBubblesTransition.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C65E912F25139B83009ACD62 /* Pods_SweetBubblesTransition_SweetBubblesTransitionTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Pods_SweetBubblesTransition_SweetBubblesTransitionTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C65E913225139B89009ACD62 /* Reusable.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Reusable.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E0EBDAB7E6A0E39A874BCD8A /* Pods-SweetBubblesTransition-SweetBubblesTransitionTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SweetBubblesTransition-SweetBubblesTransitionTests.debug.xcconfig"; path = "Target Support Files/Pods-SweetBubblesTransition-SweetBubblesTransitionTests/Pods-SweetBubblesTransition-SweetBubblesTransitionTests.debug.xcconfig"; sourceTree = "<group>"; };
 		E212008BABC178FC95EB8F3E /* Pods-SweetBubblesTransition-SweetBubblesTransitionTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SweetBubblesTransition-SweetBubblesTransitionTests.release.xcconfig"; path = "Target Support Files/Pods-SweetBubblesTransition-SweetBubblesTransitionTests/Pods-SweetBubblesTransition-SweetBubblesTransitionTests.release.xcconfig"; sourceTree = "<group>"; };
 		E6156E6278BCB2595E0CB435 /* Pods-SweetBubblesTransition.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SweetBubblesTransition.debug.xcconfig"; path = "Target Support Files/Pods-SweetBubblesTransition/Pods-SweetBubblesTransition.debug.xcconfig"; sourceTree = "<group>"; };
@@ -135,6 +139,10 @@
 		FB1B0F1D107D7BE466B9338D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				C65E913225139B89009ACD62 /* Reusable.framework */,
+				C65E912F25139B83009ACD62 /* Pods_SweetBubblesTransition_SweetBubblesTransitionTests.framework */,
+				C65E912B25139B78009ACD62 /* Pods_SweetBubblesTransition.framework */,
+				C65E912825139ABC009ACD62 /* Reusable.framework */,
 				B4BEA7DF66537E192A6270DF /* Pods_SweetBubblesTransition.framework */,
 				ACFC74A9A561199CD4D644F6 /* Pods_SweetBubblesTransition_SweetBubblesTransitionTests.framework */,
 			);

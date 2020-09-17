@@ -1,0 +1,24 @@
+PODS:
+  - Reusable (4.1.1):
+    - Reusable/Storyboard (= 4.1.1)
+    - Reusable/View (= 4.1.1)
+  - Reusable/Storyboard (4.1.1)
+  - Reusable/View (4.1.1)
+  - SweetBubblesTransition (1.0.0):
+    - Reusable (~> 4.1.1)
+
+DEPENDENCIES:
+  - SweetBubblesTransition
+
+SPEC REPOS:
+  trunk:
+    - Reusable
+    - SweetBubblesTransition
+
+SPEC CHECKSUMS:
+  Reusable: 53a9acf5c536f229b31b5865782414b508252ddb
+  SweetBubblesTransition: f32ee0a51444704285ce4f904cb6fba94b1ebbb0
+
+PODFILE CHECKSUM: 3834884afe3bc256fbe5874c9413fda4a8131342
+
+COCOAPODS: 1.9.3
