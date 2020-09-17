@@ -8,7 +8,7 @@
 
 import UIKit
 
-public class AnimationController: UIViewController {
+open class AnimationController: UIViewController {
     private let bubbleController = BubbleViewController.instantiate()
     // MARK: Child gestion
     public func startTransition(to viewController: UIViewController, animation speed: Double, bubbleController deleteItAt: Double) {
