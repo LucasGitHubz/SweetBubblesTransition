@@ -1,6 +1,6 @@
 # SweetBubblesTransition 
 
-![Preview]()
+![Preview](https://github.com/LucasGitHubz/SweetBubblesTransition/blob/master/Demo/demoBubble)
 
 SweetBubblesTransition is a transition written in swift, based on the adding of child Controllers. It's a sweet animation with bubbles giving unexpected experience to your user. Bubbles make your life better !
 
