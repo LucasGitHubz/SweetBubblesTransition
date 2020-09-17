@@ -30,8 +30,11 @@ pod 'SweetBubblesTransition'
 ## Usage
 
 This transition used the Reusable library, made by [AliSoftware](https://github.com/AliSoftware/Reusable).
+
 In fact, to understand it, we'll make a superposition.
-By your first ViewController we will add the ViewController that you want to tristion to (called VC2) and add on top the BubbleViewController (which will make the transition).
+
+From your first ViewController we will add the ViewController that you want to tristion to (called VC2) and add on top the BubbleViewController (which will make the transition).
+
 Finally we make the VC2 visible and remove the BubbleVC.
 That's it !
 
