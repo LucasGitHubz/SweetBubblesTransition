@@ -26,24 +26,24 @@ This transition used the Reusable library, made by [AliSoftware](https://github.
 
 In fact, to understand it, we'll make a superposition.
 
-From your first ViewController we will add the ViewController that you want to tristion to (called VC2) and add on top the BubbleViewController (which will make the transition).
+From your first ViewController we will add the ViewController that you want to transition to (called VC2) and add on top the BubbleViewController (which will make the transition).
 
 Finally we make the VC2 visible and remove the BubbleVC.
 That's it !
 
-To do it we'll used the StoryBased method, let's take a look at the procedure:
+To do it we'll used the StoryboardBased protocol, let's take a look at the procedure:
 
 1. First of all, we'll assume that you just create your project and so you have the Mainstoryboard + one ViewController by default. We will call it the VC1 for the rest of the explanations.
 
 2. Create a new Storyboard called ViewController2 (for exemple) and add to it a new ViewController called by the same name (really important) ViewController2.
-Now we have VC2 and don't forget to add to it a its own class:
+Now we have our VC2 and don't forget to add to its own class:
          
 ```swift
 // We have to import Reusable
 import UIKit
 import Reusable
 
-// And add to it the StoryboardBased protocol
+// And add the StoryboardBased protocol
 class ViewController2: UIViewController, StoryboardBased {
 }
 ```
@@ -57,10 +57,11 @@ import SweetBubblesTransition
 
 // Change your VC1's type by AnimationController
 class ViewController: AnimationController {
+
     // You have to instantiate your VC2 by using the method .instantiate() (thanks again to Reusable).
     private let viewController2 = ViewController2.instantiate()
 
-    // Now for this exemple I just create a button on the VC1, and assign it the following function
+    // Now for this exemple I just created a button on the VC1, and assigned to it the following function
     @IBAction func change(_ sender: Any) {
         // ------------------------------- PARAMETERS INDICATIONS -------------------------------
         // 1. 'to' means the VC you want to transition to 
