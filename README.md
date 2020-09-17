@@ -2,7 +2,7 @@
 
 ![Preview](https://github.com/LucasGitHubz/SweetBubblesTransition/blob/master/Demo/demoBubble)
 
-SweetBubblesTransition is a transition written in swift, based on the adding of child Controllers. It's a sweet animation with bubbles giving an unexpected experience to the users. Bubbles make your life better !
+SweetBubblesTransition is a transition written in swift, based on the adding of child Controllers. It's a sweet animation with bubbles giving an unexpected experience to the users. Bubbles make your life sweet !
 
 <p align="left">
     <a href="https://cocoapods.org/pods/SweetBubblesTransition" target="_blank"><img src="https://img.shields.io/cocoapods/v/SweetBubblesTransition.svg?style=flat" alt="Cocoapods version" /></a>
