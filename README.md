@@ -11,13 +11,6 @@ SweetBubblesTransition is a transition written in swift, based on the adding of 
  <a href="http://cocoapods.org/pods/SweetBubblesTransition" target="_blank"><img src="https://img.shields.io/badge/Swift-5-orange" alt="Language: Swift 5"/></a>
 </p>
 
-<p align="center">
-  • <a href="#installation">Installation</a>
-  • <a href="#usage">Usage</a>
-  • <a href="#translation">Translation</a>
-  • <a href="#license">License</a>
-</p>
-
 ## Installation
 
 SweetBubblesTransition is available through [CocoaPods](http://cocoapods.org). 
